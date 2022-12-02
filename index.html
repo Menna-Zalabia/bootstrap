@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Template_3</title>
+  <link rel="stylesheet" href="css/all.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--header-->
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #14233F;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-light" href="#"
+        style="border-right:1px solid #ccc; padding-right: 10px; font-weight: bold;"><img src="images/logo.png"
+          alt="logo" width="200px" height="50px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent text-light " aria-expanded="false" aria-label="Toggle navigation" style="border-color:#fff ;">
+        <i class="fas fa-bars ms-1 text-light"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Our Courses
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" target="_blank" href="">Self Learn Courses</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" target="_blank" href="">Live Courses</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Jobs
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" target="_blank" href="#">Apply For Job As A Teacher On-Campus</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" target="_blank" href="#">Apply For Job As A Teacher Online</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" target="_blank" href="#">Apply For Adminstrative Job</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light me-2" type="submit">Search</button>
+        </form>
+        <form class="d-flex">
+          <button class="btn btn-outline-light" type="button" data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop">Login</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- /header -->
+
+  <div class="container-fluid p-0">
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"
+      style="background-color: #14233F;" height="570px">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/person.png" class="d-block" height="570px" alt="pic1">
+          <div class="carousel-caption">
+            <h1 style="color:#6EC1E4;">Welcome to Studio Arabiya</h1>
+            <h5>IT'S NICE TO MEET YOU</h5>
+            <a href="" class="btn" target="_blank" style="background-color:#6EC1E4;">Learn More</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/person1.png" class="mx-auto d-block" height="570px" alt="pic2">
+          <div class="carousel-caption">
+            <h1 style="color:#6EC1E4;">Live Courses & Practicing</h1>
+            <h5 class="text-dark">Have a unique learning experience with qualified trainers from studio Arabiya through our online live
+              courses for a more interactive and impactful experience.</h5>
+            <a href="#" class="btn" target="_blank" style="background-color:#6EC1E4;">Register now</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/Person.png" class="d-block" height="570px" alt="pic3">
+          <div class="carousel-caption">
+            <h1 style="color:#6EC1E4;">SACT Certificate</h1>
+            <h5>You have the opportunity now to measure your level as a Quran and Arabic teacher for foreigners and
+              evaluate yourself to develop further through the test provided by the Studio Arabia Institute</h5>
+            <a href="" class="btn" target="_blank" style="background-color:#6EC1E4;">Register now</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/person2.png" class="d-block" height="570px" alt="pic4">
+          <div class="carousel-caption">
+            <h1 style="color:#6EC1E4;">Self-Learning Courses</h1>
+            <h5>Study our recorded courses that you can access anytime and anywhere! Keep in touch with your trainer,
+              and join your peers in an exclusive forum for learners to share experiences for a successful career.</h5>
+            <a href="" class="btn" target="_blank" style="background-color:#6EC1E4;">Register now</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- /carousel -->
+    <br>
+    <h1 class="text-center text-light p-3 m-0 " style="background-color:#14233F;">About Studio Arabiya</h1>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Arabic studio for teaching Quran and Arabic for non-native speakers.
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Founded in 2011, Studio Arabia Institute quickly became one of the leading online Arabic and Quran
+            institutes globally, providing education in all aspects of the Arabic language and the Holy Quran.
+
+            As Studio Al-Arabiya is one of the most important and most prominent centers for teaching the Noble Qur’an
+            and the Arabic language to non-native speakers, it is our duty to always be keen on qualifying teachers to
+            perform this mission with perfection and high quality by constantly providing qualifying courses for
+            teachers.
+
+            We have made it our mission to bring the Arabic language and the Holy Quran to those who yearn to learn it
+            by providing high-quality education and competent and well-qualified teachers. </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Our Mission
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Our mission in Studio Al-Arabiya is to teach the Noble Qur’an and the Arabic language to the whole world in
+            its various dialects. We are also keen on qualifying teachers through specialized courses to be the best
+            teachers of the Noble Qur’an and Arabic language for non-native speakers, and we are constantly working to
+            provide job opportunities for dedicated teachers.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Our Vision
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            As one of the foundational online institutes for teaching Arabic and the Holy Quran, our vision is to
+            continue to be a leader in this field and provide the best educational experiences for our students.</div>
+        </div>
+      </div>
+    </div>
+    <!-- /collapse -->
+    <div class="fixedimg fixedimg1"></div>
+    <h1 class="text-center text-light p-3 m-0 " style="background-color:#14233F;">Our Courses</h1>
+    <div class="container-fluid">
+      <div class="row justify-content-around pb-5 " style="background-image:url(images/bgjpg.jpg); border-radius: 7px;">
+        <div class="card text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem; background-color:#14233F;">
+          <a href="" target="_blank">
+            <img src="images/Person.png" class="card-img-top" alt="html pic"></a>
+          <div class="card-body">
+            <h5 class="card-title">Preparing the Holy Qur’an teachers for non-Arabic speakers</h5>
+            <a href="" class="btn" style="background-color:#6EC1E4;">View The Course</a>
+          </div>
+        </div>
+        <div class="card  text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem;background-color:#14233F;">
+          <a href="" target="_blank">
+            <img src="images/person.png" class="card-img-top" alt="css pic"></a>
+          <div class="card-body">
+            <h5 class="card-title">Teaching techniques for non-Arabic speakers</h5>
+            <a href="" class="btn" style="background-color:#6EC1E4;">View The Course</a>
+          </div>
+        </div>
+        
+        <div class="card text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem; background-color:#14233F;">
+          <a href="" target="_blank">
+            <img src="images/person.png" class="card-img-top" alt="css pic"></a>
+            <div class="card-body">
+              <h5 class="card-title">Teaching techniques for non-Arabic speakers</h5>
+              <a href="" class="btn" style="background-color:#6EC1E4;">View The Course</a>
+          </div>
+        </div>
+        
+        <div class="card text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem; background-color:#14233F;">
+          <a href="" target="_blank">
+            <img src="images/person.png" class="card-img-top" alt="css pic"></a>
+            <div class="card-body">
+              <h5 class="card-title">Teaching techniques for non-Arabic speakers</h5>
+              <a href="" class="btn" style="background-color:#6EC1E4;">View The Course</a>
+          </div>
+        </div>
+       
+        <div class="card  text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem; background-color:#14233F;">
+          <a href="" target="_blank">
+            <img src="images/تعليم-القراءة.png" class="card-img-top" alt="css pic"></a>
+            <div class="card-body">
+              <h5 class="card-title">Qualifying Quran Teachers</h5>
+              <a href="" class="btn" style="background-color:#6EC1E4;">View The Course</a>
+          </div>
+        </div>
+        
+        <div class="card text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem; background-color:#14233F;">
+          <a href="" target="_blank">
+            <img src="images/تعليم-القراءة.png" class="card-img-top" alt="css pic"></a>
+            <div class="card-body">
+              <h5 class="card-title">Qualifying Quran Teachers</h5>
+              <a href="" class="btn" style="background-color:#6EC1E4;">View The Course</a>
+          </div>
+        </div>
+        
+        <div class="card text-light col-lg-3 col-md-4 col-sm-6 m-1 mt-5" style="width: 18rem; background-color:#14233F;">
+          <a href="" target="_blank">
+            <img src="images/تعليم-القراءة.png" class="card-img-top" alt="css pic"></a>
+            <div class="card-body">
+              <h5 class="card-title">Qualifying Quran Teachers</h5>
+              <a href="" class="btn" style="background-color:#6EC1E4;">View The Course</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+   
+    <div class="fixedimg fixedimg1"></div>
+    <h1 class="text-center text-light p-3 m-0 " style="background-color:#14233F;">Our Team</h1>
+    <div class="container-fluid">
+      <div class="row justify-content-center" >
+        <div class="card m-3  text-light" style="width: 18rem; background-color:#14233F;">
+          <img src="images/Person.png" class="card-img-top" height="300px" alt="memo">
+          <div class="card-body">
+            <p class="card-text">Mr : Ahmed</p>
+          </div>
+        </div>
+          
+        <div class="card m-3  text-light" style="width: 18rem; background-color:#14233F;">
+          <img src="images/Person1.png" class="card-img-top" height="300px" alt="memo">
+          <div class="card-body">
+            <p class="card-text">Mr : Mohamed</p>
+          </div>
+        </div>
+        <div class="card m-3  text-light" style="width: 18rem; background-color:#14233F;">
+          <img src="images/Person2.png" class="card-img-top" height="300px" alt="memo">
+          <div class="card-body">
+            <p class="card-text">Mr : Isalm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fixedimg fixedimg1"></div>
+    <h1 class="text-center text-light p-3 m-0 " style="background-color:#14233F;">Join Us</h1>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="card m-3" style="width: 18rem; background-color:#14233F;">
+          <div class="card-body text-light d-flex flex-column text-center">
+            <h6 class="card-title mb-4">Subscribe Now
+            </h6>
+              <a href="" target="_blank" class="card-link "><i class="fab fa-facebook" style="color:#6EC1E4 ; font-size: 35px;"></i></a>
+          </div>
+        </div>
+        <div class="card m-3" style="width: 18rem; background-color:#14233F;">
+          <div class="card-body text-light d-flex flex-column text-center">
+            <h6 class="card-title mb-4">Follow
+            </h6>
+              <a href="" target="_blank" class="card-link "><i class="fab fa-facebook" style="color:#6EC1E4 ; font-size: 35px;"></i></a>
+          </div>
+        </div>
+        <div class="card m-3 " style="width: 18rem; background-color:#14233F;">
+          <div class="card-body text-light d-flex flex-column text-center">
+            <h6 class="card-title mb-4">Like the page
+            </h6>
+              <a href="" target="_blank" class="card-link "><i class="fab fa-facebook" style="color:#6EC1E4 ; font-size: 35px;"></i></a>
+          </div>
+        </div>
+        <div class="card m-3 " style="width: 18rem; background-color:#14233F;">
+          <div class="card-body text-light d-flex flex-column text-center">
+            <h6 class="card-title mb-4">watch vedios
+            </h6>
+            <a href="#" target="_blank" class="card-link "><i class="fab fa-facebook" style="color:#6EC1E4 ; font-size: 35px;"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <!-- footer -->
+    <footer class=" text-light mt-5 p-2 pb-5 " style="background-color:#14233F;">
+      <div class="container-fluid">
+        <img class="mx-auto d-block m-3" src="images/logo.png" alt="logofooter" width="300px" height="100px">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <address>
+              <pre><i class="fas fa-map-marker-alt" style="color:#6EC1E4 ; font-size: 20px;"></i> 9398 Huda Sharawy St.
+South Seen Area
+Mokattam, Cairo, Egypt</pre>
+              <p><i class="fas fa-phone-alt" style="color:#6EC1E4 ; font-size: 20px;"></i> Phone: +8(800)659-2684</p>
+              <p><i class="far fa-envelope"  style="color:#6EC1E4 ; font-size: 20px;"></i> hr@studioarabiya.com</p>
+            </address>
+          </div>
+          <div class="col-md-4" >
+            <p><a href="" target="_blank" style="color: #6EC1E4;">Visit Us</a></p>
+            <p><a href="" target="_blank" style="color: #6EC1E4;">Take alook</a></p>
+            <p><a href="" target="_blank" style="color: #6EC1E4;">Your health is more important</a></p>
+          </div>
+          <div class="col-md-4">
+            <p>Serveices for all </p>
+            <p>Provide best serveices</p>
+            <p>you will be better than before</p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <span class="text-center d-block text-secondary">Copyright &copy;2022 | www.studioarabiyaeg.com</span>
+      <!-- //////////////////// -->
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-secondary" id="staticBackdropLabel">Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- form -->
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label text-secondary">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label text-secondary">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked"
+                      style="background-color: #14233F; border-color: #14233F;" checked>
+                    <label class="form-check-label text-secondary" for="flexSwitchCheckChecked">Remmember me</label>
+                  </div>
+                </div>
+                <button type="submit" class="btn text-white" style="background-color: #14233F;">Login</button>
+              </form>
+              <!-- /form -->
+              <div class="modal-footer">
+                <button type="button" class="btn text-white" data-bs-dismiss="modal"
+                  style="background-color: #14233F;">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /modal -->
+      </div>
+
+      <!-- /////////// -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="script.js"></script>
+</body>
+
+</html>
